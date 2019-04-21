@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import { rhythm, scale } from '../../utils/typography';
 
 function Layout({ location, title, children }) {
-  const rootPath = `${__PATH_PREFIX__}/`;
+  const rootPath = `${__PATH_PREFIX__}/`; // eslint-disable-line no-undef
   let header;
 
   if (location.pathname === rootPath) {
@@ -22,7 +23,7 @@ function Layout({ location, title, children }) {
             textDecoration: 'none',
             color: 'inherit',
           }}
-          to={'/'}
+          to="/"
         >
           {title}
         </Link>
@@ -42,7 +43,7 @@ function Layout({ location, title, children }) {
             textDecoration: 'none',
             color: 'inherit',
           }}
-          to={'/'}
+          to="/"
         >
           {title}
         </Link>
@@ -65,5 +66,11 @@ function Layout({ location, title, children }) {
     </div>
   );
 }
+
+Layout.propTypes = {
+  location: PropTypes.shape({}).isRequired,
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
 
 export default Layout;

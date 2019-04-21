@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
 import Bio from '../components/Bio';
@@ -6,7 +7,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import { rhythm, scale } from '../utils/typography';
 
-function BlogPostTemplate({ data, pageContext, location }) {
+function BlogPostTemplate({ data, location, pageContext }) {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
@@ -63,6 +64,12 @@ function BlogPostTemplate({ data, pageContext, location }) {
     </Layout>
   );
 }
+
+BlogPostTemplate.propTypes = {
+  data: PropTypes.shape({}).isRequired,
+  location: PropTypes.shape({}).isRequired,
+  pageContext: PropTypes.shape({}).isRequired,
+};
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {

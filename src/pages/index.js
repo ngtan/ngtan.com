@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
 import Bio from '../components/Bio';
@@ -40,6 +41,11 @@ function BlogIndex({ data, location }) {
     </Layout>
   );
 }
+
+BlogIndex.propTypes = {
+  data: PropTypes.shape({}).isRequired,
+  location: PropTypes.shape({}).isRequired,
+};
 
 export const pageQuery = graphql`
   query HomePageQuery {

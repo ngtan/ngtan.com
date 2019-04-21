@@ -3,7 +3,7 @@ import Wordpress2016 from 'typography-theme-wordpress-2016';
 
 Wordpress2016.overrideThemeStyles = () => ({
   'a.gatsby-resp-image-link': {
-    boxShadow: `none`,
+    boxShadow: 'none',
   },
 });
 
@@ -16,6 +16,6 @@ if (process.env.NODE_ENV !== 'production') {
   typography.injectStyles();
 }
 
+export const { rhythm, scale } = typography;
+
 export default typography;
-export const rhythm = typography.rhythm;
-export const scale = typography.scale;

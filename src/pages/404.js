@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
@@ -15,6 +16,11 @@ function NotFoundPage({ data, location }) {
     </Layout>
   );
 }
+
+NotFoundPage.propTypes = {
+  data: PropTypes.shape({}).isRequired,
+  location: PropTypes.shape({}).isRequired,
+};
 
 export const pageQuery = graphql`
   query NotFoundPageQuery {
