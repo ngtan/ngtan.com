@@ -29,7 +29,9 @@ function BlogIndex({ data, location }) {
                 {title}
               </Link>
             </h3>
-            <small>{node.frontmatter.date}</small>
+            <small>
+              {node.frontmatter.date} • {`${node.timeToRead} min read`}
+            </small>
             <p
               dangerouslySetInnerHTML={{
                 __html: node.frontmatter.description || node.excerpt,
@@ -61,6 +63,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
