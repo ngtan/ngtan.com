@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Bio from '../components/Bio';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import { rhythm, scale } from '../utils/typography';
 
@@ -85,4 +85,3 @@ export const pageQuery = graphql`
 `;
 
 export default BlogPostTemplate;
-
