@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "ngtan.com",
+  "alias": "ngtan.com",
   "builds": [
     {
       "src": "package.json",
