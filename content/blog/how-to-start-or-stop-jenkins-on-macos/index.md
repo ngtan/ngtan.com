@@ -8,12 +8,12 @@ In the past, I was looking for a way start or stop Jenkins service on my machine
 Open a terminal session and run the following commands to start or stop Jenkins service.
 
 #### Start Jenkins service
-  ```jsx
+  ```bash
     sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
   ```
 
 #### Stop Jenkins service
-  ```jsx
+  ```bash
     sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
   ```
 
