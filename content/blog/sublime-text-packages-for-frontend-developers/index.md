@@ -44,11 +44,17 @@ As you already known, we had to install variety of things for working. I'm reall
 * [Placeholders](https://packagecontrol.io/packages/Placeholders)
   Placeholder HTML & content (lorem ipsum) package for Sublime Text
 
+* [Pug](https://packagecontrol.io/packages/Pug)
+  A comprehensive textmate / sublime text bundle for the Pug (formerly Jade) template language
+
+* [SCSS](https://packagecontrol.io/packages/SCSS)
+  The TextMate SCSS Official Bundle. Now Compatible with SublimeText2.
+
 * [Sublime​Code​Intel](https://packagecontrol.io/packages/SublimeCodeIntel)
   Full-featured code intelligence and smart autocomplete engine
 
-* [Terminal](https://packagecontrol.io/packages/Terminal)
-  Launch terminals from the current file or the root project folder
+* [Terminus](https://packagecontrol.io/packages/Terminus)
+  Best Terminal Emulator of Sublime Text
 
 ### IDE settings
 Preferences → Settings
