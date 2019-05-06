@@ -1,6 +1,6 @@
 ---
 title: Singapore & Malaysia Journey
-date: "2019-05-23"
+date: "2019-05-03"
 ---
 Trước giờ, mình chưa bao giờ viết về những chuyến đi của mình. Nhưng bạn bè quan tâm khá nhiều đến lịch trình, chi phí cũng như là kinh nghiệm nên mình quyết định thực hiện bài viết này. Bạn có thể tham khảo để tính toán và dự trù kinh phí cho chuyến đi của bạn.
 
@@ -11,7 +11,7 @@ Trước giờ, mình chưa bao giờ viết về những chuyến đi của mì
 * Airasia / Sinapore → Malaysia / 2.4 triệu
 * Airasia / Malaysia → HCM / 1.6 triệu
 
-*Tổng chi phí bay: 6tr / 2 người*
+*Tổng chi phí bay: 6 triệu / 2 người*
 
 Ngay từ đầu, mình chưa có dự định đi, nhưng trong một phút rãnh rỗi, mình có xem những ngày sẽ được nghỉ phép sắp tới thì vô tình thấy dịp mình đi có thể nghỉ dài ngày nên check thử vé bay cho chuyến đi này xem thế nào thì thấy giá khá là rẻ rồi, nên quyết định đặt vé đi luôn. Mình đặt trực tiếp với hãng bay luôn, không thông qua agency để đảm bảo mình quá trình di chuyển diễn ra suôn sẻ. Thời điểm mình đặt vé là khoảng đầu tháng 12/2018.
 
