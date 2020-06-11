@@ -27,4 +27,4 @@ Force a branch to be deleted even if it hasn't been pushed or merged yet.
 
 
 ### Conclusion
-Have fun and stay tuned for the next post. Thanks for reading :)
+Have fun and stay tuned for the next post. Thanks for reading 😉
