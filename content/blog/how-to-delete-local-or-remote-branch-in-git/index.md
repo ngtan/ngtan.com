@@ -6,22 +6,22 @@ date: "2020-06-11"
 
 
 ### Deletes a local branch
-```javascript
+```sh
   git branch --delete <branch-name>
 ```
 
 Shorthand 
-```javascript
+```sh
   git branch -d <branch-name>
 ```
 
 Force a branch to be deleted even if it hasn't been pushed or merged yet.
-```javascript
+```sh
   git branch -D <branch-name>
 ```
 
 ### Deletes a remote branch
-```javascript
+```sh
   git push origin --delete <branch-name>
 ```
 
