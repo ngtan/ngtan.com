@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'ngtan',
     author: 'Tan Nguyen',
-    description: 'A person who loves exploring new things',
+    description: 'loves exploring new things',
     siteUrl: 'https://ngtan.com',
     social: {
       twitter: 'tannd1993',
