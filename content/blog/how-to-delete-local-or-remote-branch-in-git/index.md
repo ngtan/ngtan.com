@@ -20,6 +20,13 @@ Force a branch to be deleted even if it hasn't been pushed or merged yet.
   git branch -D <branch-name>
 ```
 
+Delete all branches but keeping others like "develop", "master"
+```sh
+  git branch | grep -v "develop" | grep -v "master" | xargs git branch -D
+```
+
+```
+
 ### Deletes a remote branch
 ```sh
   git push origin --delete <branch-name>
