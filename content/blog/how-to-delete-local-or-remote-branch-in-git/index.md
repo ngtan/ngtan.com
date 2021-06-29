@@ -25,8 +25,6 @@ Delete all branches but keeping others like "develop", "master"
   git branch | grep -v "develop" | grep -v "master" | xargs git branch -D
 ```
 
-```
-
 ### Deletes a remote branch
 ```sh
   git push origin --delete <branch-name>
